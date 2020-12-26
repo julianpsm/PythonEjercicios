@@ -21,7 +21,7 @@ def borrar():
 
 def operaciones():
     ecuacion = e_texto.get()
-    resultado = eval(ecuacion)
+    resultado = eval(ecuacion)#lo se tanto trabajo para esto xD !!
     e_texto.delete(0, END)
     e_texto.insert(0, resultado)
     i = 0
